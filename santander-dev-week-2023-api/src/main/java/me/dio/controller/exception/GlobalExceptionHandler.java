@@ -11,7 +11,7 @@ import me.dio.service.exception.BusinessException;
 import me.dio.service.exception.NotFoundException;
 
 @RestControllerAdvice
-public class GlobalExceptionHandler {
+public class GlobalExceptionHandler { 
 
     private static final Logger LOGGER = LoggerFactory.getLogger(GlobalExceptionHandler.class);
 
